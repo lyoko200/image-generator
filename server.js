@@ -3,6 +3,7 @@ dotenv.config();
 
 import { OpenAI } from 'openai';
 
+// Add your OPENAI API key directly here or in a .env file
 const openai = new OpenAI({apiKey: process.env.OPENAI});
 
 import express from 'express';
